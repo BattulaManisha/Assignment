@@ -1,8 +1,8 @@
 # Q1
 Design and develop a Spring MVC web application as follows: Create index.jsp page having one hyperlink. When user dicks on that hyperlink, it should call HelloWorldController. Design HelloWorldController class that returns a view helloWorld.jsp Design a hello World jsp page that displays "Hello World" message.
             
-HELLOCONTROLLER.JAVA
-```
+HelloController.java
+```java
           package hellocontroller;
           import org.springframework.stereotype.Controller;
           import org.springframework.ui.Model;
@@ -26,7 +26,7 @@ HELLOCONTROLLER.JAVA
 
 
 ```
-HELLOPAGE.JSP
+HelloPage.jsp
 ```
 <html>
  <body> <h1>First Spring MVC Application Demo</h1>
@@ -34,7 +34,7 @@ HELLOPAGE.JSP
 </body>
 </html>
 ```
-SPRING-DISPATCHER-SERVELT
+spring-dispatcher-servlet.xml
 ```
 <?xml version="1.0" encoding="UTF-8"?>
 <beans xmlns = "http://www.springframework.org/schema/beans"
@@ -60,7 +60,7 @@ SPRING-DISPATCHER-SERVELT
     </bean> 
 </beans>
 ```
-WEB.XML
+web.xml
 ```
 <display-name>Hellowebpage</display-name>
    <servlet>
@@ -74,8 +74,4 @@ WEB.XML
     <url-pattern>/</url-pattern>
 </servlet-mapping>
 </web-app>
-```
-OUTPUT
-```
-Welcome Message
 ```
