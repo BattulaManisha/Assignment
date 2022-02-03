@@ -1,3 +1,5 @@
+ASSIGNMENT
+```
 # Q1
 Design and develop a Spring MVC web application as follows: Create index.jsp page having one hyperlink. When user dicks on that hyperlink, it should call HelloWorldController. Design HelloWorldController class that returns a view helloWorld.jsp Design a hello World jsp page that displays "Hello World" message.
             
@@ -30,7 +32,7 @@ HELLOPAGE.JSP
 ```
 <html>
  <body> <h1>First Spring MVC Application Demo</h1>
-<h2>${welcomeMessage}</h2>   
+<h2>${Welcome Message}</h2>   
 </body>
 </html>
 ```
@@ -77,5 +79,5 @@ WEB.XML
 ```
 OUTPUT
 ```
-welcome message
+Welcome Message
 ```
